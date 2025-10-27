@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  box-sizing: border-box;
+  padding: 5rem 5rem 2rem 2rem;
+  padding: auto;
+  background: hsl(0, 0%, 8%);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  align-content: center;
+  /* padding-left: 12rem; */
+  padding: auto;
+  min-width: 100vh;
+  flex-direction: column;
+  padding: 0;
+  font-family: cursive;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background: hsl(0, 0%, 70%);
+  box-shadow: -4px 4px 4px hsl(0, 0%, 20%) inset;
+}
+nav ul {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  height: 50px;
+  right: 0px;
+  margin: 0px;
+  width: 100%;
+
+  padding: 0.5rem;
+}
+.navlink {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  height: 100%;
+  color: black;
+  padding: 0 30px;
+}
+nav a:hover {
+  background: hsl(0, 0%, 25%);
+  border-radius: 30px;
+  /* padding-left: 1rem; */
+  transition: 2s;
+}
+nav li:first-child {
+  margin-right: auto;
+  margin-left: 1rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(0, 0%, 12%);
+  padding: 3rem 3rem 3rem 3rem;
+  padding-right: 3rem;
+  flex-direction: column;
+  margin: 2rem;
+  border-radius: 20px;
+}
+.img {
+  width: 7rem;
+  border-radius: 50%;
+}
+h1 {
+  margin-bottom: 0;
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+}
+h1:hover {
+  color: purple;
+  transition: 1s;
+}
+h2 {
+  font-size: 1rem;
+  color: hsl(75, 94%, 57%);
+}
+p {
+  color: hsl(0, 0%, 100%);
+}
+.item {
+  display: block;
+  padding: 1rem;
+  width: 20rem;
+  text-decoration: none;
+  text-align: center;
+  background: hsl(0, 0%, 25%);
+  margin: 1rem 1rem;
+  margin-left: 0%;
+  margin-right: 0px;
+  color: hsl(0, 0%, 50%);
+  border-radius: 10px;
+}
+.item:hover {
+  background: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 60%);
+  margin-left: 1rem;
+  z-index: 20;
+  transition: 1.5s;
+}

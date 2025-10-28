@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  max-height: 100vh;
+  display: flexbox;
+  font-family: League Spartan;
+  flex-direction: row;
+}
+
+header {
+  padding: 5%;
+  padding-left: 8%;
+  padding-top: 5%;
+  width: 48%;
+}
+h1 {
+  font-size: 3.3rem;
+  color: hsl(300, 43%, 22%);
+}
+.container1 {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  float: right;
+  width: 50%;
+  height: 50%;
+  justify-content: space-between 10px;
+  align-items: flex-start;
+  align-content: center;
+  margin: top 10%;
+  border-radius: 5%;
+  padding: 4%;
+  top: 0%;
+  right: 0%;
+}
+#itr {
+  padding: 6%;
+  margin: 1%;
+  width: 80%;
+}
+.item1 {
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 100%;
+  height: 20%;
+  align-content: center;
+}
+.item2 {
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 100%;
+  align-content: center;
+  height: 20%;
+  margin-left: 70px;
+}
+.item3 {
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+  width: 100%;
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-left: 110px;
+}
+#hd {
+  display: inline;
+  color: hsl(300, 43%, 22%);
+  font-size: 1.2rem;
+}
